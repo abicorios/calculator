@@ -12,6 +12,7 @@ C++
 
 # building
 Download and install Visual Studio Comunity Edition https://www.visualstudio.com
+
 Download and install Git https://git-scm.com/
 For example, create directory C:\test
 Opeh git console, go to empty directory C:\test, input git clone --recursive git://github.com/abicorios/calculator.git
