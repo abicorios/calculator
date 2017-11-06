@@ -7,7 +7,7 @@ It is nice for complicated calculation with many numbers and brackets.
 
 Operation system Windows 10
 
-#Programming language
+# Programming language
 C++
 
 # building
