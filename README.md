@@ -17,23 +17,15 @@ Download and install Git https://git-scm.com/
 
 For example, create directory C:\test
 
-Opeh git console, go to empty directory C:\test, input git clone --recursive git://github.com/abicorios/calculator.git
+From Windows start menu open Developer Command Prompt for VS2017 
 
-Press Enter
+Do it:
 
-After cloning, you can close git prompt
+cd C:\test
 
-From Windows start menu open Developer Command Prompt for VS2017
+git clone --recursive git://github.com/abicorios/calculator.git
 
-Go to C:\test\calculator\boost
-
-Input bootstrap.bat
-
-Press Enter
-
-Input .\b2 --with-regex
-
-Press Enter
+MakeBoostRegex.bat
 
 After compiling,  you can close Developer Command Prompt for VS2017
 
@@ -52,4 +44,3 @@ Press Ok
 Press Ctrl+F5
 
 How do you know that it is not format your disk C?
-
