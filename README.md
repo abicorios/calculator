@@ -19,7 +19,7 @@ From the Windows start menu open Developer Command Prompt for VS2017
 
 Do it:
 
-**git clone https://github.com/abicorios/calculator
+**git clone https://github.com/abicorios/calculator**
 
 **cd calculator
 
