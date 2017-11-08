@@ -51,4 +51,4 @@ b2 --with-regex -j 2
 cd ..
 set INCLUDE=%INCLUDE%%cd%\boost;
 set LIBPATH=%LIBPATH%%cd%\boost\stage\lib;
-devenv calculator.sln /useenv /rebuild
+devenv calculator.sln /useenv /rebuild "Debug|x86"
