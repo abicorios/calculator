@@ -1,7 +1,7 @@
 # calculator
-This console calculator use regular expressions for parsing input for detecting numbers and signs.
+This console calculator use the regular expressions for the parsing of the input for the detecting of the numbers and the mathematical signs.
 
-It is nice for complicated calculation with many numbers and brackets.
+It is nice for the complicated calculations with many numbers and brackets. You can use ^ or ** for the power operation, the brackets (){}[] and operations +-*/
 
 # Platform
 
@@ -15,32 +15,18 @@ Download and install Visual Studio Comunity Edition https://www.visualstudio.com
 
 Download and install Git https://git-scm.com/
 
-For example, create directory C:\test
-
-From Windows start menu open Developer Command Prompt for VS2017 
+From the Windows start menu open Developer Command Prompt for VS2017 
 
 Do it:
 
-cd C:\test
+git clone https://github.com/abicorios/calculator
 
-git clone --recursive git://github.com/abicorios/calculator.git
+cd calculator
 
-MakeBoostRegex.bat
+MakeX86WithBoostRegex.bat
 
-After compiling,  you can close Developer Command Prompt for VS2017
+The result is the calculator.exe in the Debug folder.
 
-Open folder C:\test\calculator
-
-Double click calculator.sln
-
-In Colution Explorer right click calculator and select Properties
-
-In Configuration Properties > C/C++ > General > Additional Include Directories, input C:\test\calculator\boost
-
-In Configuration Properties > Linker > General > Additional Library Directories, input C:\test\calculator\boost\stage\lib
-
-Press Ok
-
-Press Ctrl+F5
-
-How do you know that it is not format your disk C?
+# References
+I use the Boost Regex https://github.com/boostorg/regex
+My MakeX86WithBoostRegex.bat script is inspired by the file appveyor.yml https://github.com/boostorg/regex/blob/develop/appveyor.yml, so I use only such Boost submolules which need for the compiling of the Regex. It is less then half of all submodules of the full Boost https://github.com/boostorg/boost. Halboostorg/boost.gitf Boost is faster for download and compiling. It is why I do not do git submodule add git://github.com/boostorg/boost.git boost, but instead I use my own castomised script MakeX86WithBoostRegex.bat.
