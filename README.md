@@ -29,4 +29,4 @@ The result is the calculator.exe in the Debug folder.
 
 # References
 I use the Boost Regex https://github.com/boostorg/regex
-My MakeX86WithBoostRegex.bat script is inspired by the file appveyor.yml https://github.com/boostorg/regex/blob/develop/appveyor.yml, so I use only such Boost submolules which need for the compiling of the Regex. It is less then half of all submodules of the full Boost https://github.com/boostorg/boost. Halboostorg/boost.gitf Boost is faster for download and compiling. It is why I do not do git submodule add git://github.com/boostorg/boost.git boost, but instead I use my own castomised script MakeX86WithBoostRegex.bat.
+My MakeX86WithBoostRegex.bat script is inspired by the file appveyor.yml https://github.com/boostorg/regex/blob/develop/appveyor.yml, so I use only such Boost submolules which need for the compiling of the Regex. It is less than half of all submodules of the full Boost https://github.com/boostorg/boost. Halboostorg/boost.gitf Boost is faster for download and compiling. It is why I do not do git submodule add git://github.com/boostorg/boost.git boost, but instead I use my own castomised script MakeX86WithBoostRegex.bat.
