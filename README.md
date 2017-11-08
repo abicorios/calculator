@@ -1,4 +1,4 @@
-# calculator
+# Calculator
 This console calculator use the regular expressions for the parsing of the input for the detecting of the numbers and the mathematical signs.
 
 It is nice for the complicated calculations with many numbers and brackets. You can use ^ or ** for the power operation, the brackets (){}[] and operations +-*/
@@ -10,7 +10,7 @@ Operation system Windows 10
 # Programming language
 C++
 
-# building
+# Building
 Download and install Visual Studio Comunity Edition https://www.visualstudio.com
 
 Download and install Git https://git-scm.com/
