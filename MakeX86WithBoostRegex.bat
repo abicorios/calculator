@@ -47,7 +47,7 @@ git submodule update --init libs/rational
 git submodule update --init libs/algorithm
 git submodule update --init libs/regex
 call bootstrap.bat
-b2 --with-regex -j 2
+.\b2 --with-regex -j 2
 cd ..
 set INCLUDE=%INCLUDE%%cd%\boost;
 set LIBPATH=%LIBPATH%%cd%\boost\stage\lib;
