@@ -3,7 +3,7 @@ The build script MakeX86WithBoostRegex.bat download end compile Boost Regex, so 
 # Calculator
 This console calculator use the regular expressions for the parsing of the input for the detecting of the numbers and the mathematical signs.
 
-It is nice for the complicated calculations with many numbers and brackets. You can use ^ or ** for the power operation, the brackets (){}[] and operations +-*/
+It is nice for the complicated calculations with many numbers and brackets. You can use ^ or ** for the power operation, any brackets as you want (){}[] and operations +-*/
 
 # Calculator in work
 ```
