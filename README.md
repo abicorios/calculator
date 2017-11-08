@@ -26,7 +26,7 @@ Download and install Visual Studio Comunity Edition https://www.visualstudio.com
 
 Download and install Git https://git-scm.com/
 
-From the Windows start menu open Developer Command Prompt for VS2017 
+From the Windows start menu open **Developer Command Prompt for VS2017**
 
 Do it:
 
