@@ -18,10 +18,8 @@ out[1]:2.35736e-41={[1+2+3]/(4+5+6+7)}^{8*9}
 Operation system Windows 10
 
 # Programming language
-C++
 
-# Free hard disk space
-1GB
+C++
 
 # Building
 Download and install Visual Studio Comunity Edition https://www.visualstudio.com
