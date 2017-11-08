@@ -23,7 +23,8 @@ Do it:
 
 cd calculator
 
-MakeX86WithBoostRegex.bat```
+MakeX86WithBoostRegex.bat
+```
 
 The result is the **calculator.exe** in the Debug folder.
 
