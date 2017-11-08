@@ -1,5 +1,5 @@
 # Attention!
-The build script MakeX86WithBoostRegex.bat download end compile Boost Regex, so it will cost 1GB your disk space.
+The build script MakeX86WithBoostRegex.bat download and compile Boost Regex, so it will cost 1GB your disk space.
 # Calculator
 This console calculator use the regular expressions for the parsing of the input for the detecting of the numbers and the mathematical signs.
 
