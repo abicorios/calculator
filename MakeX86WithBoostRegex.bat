@@ -49,6 +49,6 @@ git submodule update --init libs/regex
 call bootstrap.bat
 b2 --with-regex -j 2
 cd ..
-set INCLUDE=%INCLUDE%;%cd%\boost\boost
-set LIBPATH=%LIBPATH%;%cd%\boost\stage\lib
-devenv calculator.sln /build
+set INCLUDE=%INCLUDE%%cd%\boost;
+set LIBPATH=%LIBPATH%%cd%\boost\stage\lib;
+devenv calculator.sln /useenv /rebuild
