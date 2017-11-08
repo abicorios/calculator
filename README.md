@@ -3,6 +3,14 @@ This console calculator use the regular expressions for the parsing of the input
 
 It is nice for the complicated calculations with many numbers and brackets. You can use ^ or ** for the power operation, the brackets (){}[] and operations +-*/
 
+# Calculator in work
+```
+It is a calculator
+Enter q for quit
+Enter help, h or ? for information
+inp[1]:{[1+2+3]/(4+5+6+7)}^{8*9}
+out[1]:2.35736e-41={[1+2+3]/(4+5+6+7)}^{8*9}
+```
 # Platform
 
 Operation system Windows 10
