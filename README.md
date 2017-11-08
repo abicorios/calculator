@@ -1,3 +1,5 @@
+# Attention!
+The build script MakeX86WithBoostRegex.bat download end compile Boost Regex, so it will cost 1GB your disk space.
 # Calculator
 This console calculator use the regular expressions for the parsing of the input for the detecting of the numbers and the mathematical signs.
 
@@ -17,6 +19,9 @@ Operation system Windows 10
 
 # Programming language
 C++
+
+# Free hard disk space
+1GB
 
 # Building
 Download and install Visual Studio Comunity Edition https://www.visualstudio.com
