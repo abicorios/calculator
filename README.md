@@ -1,5 +1,6 @@
 # Attention!
-The build script **MakeX86WithBoostRegex.bat** download and compile **Boost Regex**, so it will cost 1GB your disk space. I want try **Boost Xpressive** instead **Boost Regex**, but it will be other solution.
+The build script **MakeX86WithBoostRegex.bat** download and compile **Boost Regex**, so it will cost 1GB your disk space. I want try **Boost Xpressive** instead **Boost Regex**, but it will be other solution. Now it is old unstable solution. New nice version is https://github.com/abicorios/CalculatorBoostRegex, which use Boost Regex from prebuilded NuGet package.
+
 # Calculator
 This console calculator use the regular expressions for the parsing of the input for the detecting of the numbers and the mathematical signs.
 
